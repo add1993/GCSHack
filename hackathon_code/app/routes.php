@@ -151,12 +151,6 @@ Route::get('logout',
 	)
 )->before('auth');
 
-
-
-
-
-
-/* @author :: vijay*/
 /***** Dashboard *****/
 Route::get('dashboard',
 	array(
