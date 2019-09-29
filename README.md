@@ -2,8 +2,8 @@
 
 # Commands to Run the CNN
 #### To Retrain the network <br>
-IMAGE_SIZE=224
-ARCHITECTURE="mobilenet_0.50_${IMAGE_SIZE}"
+IMAGE_SIZE=224 <br>
+ARCHITECTURE="mobilenet_0.50_${IMAGE_SIZE}" <br>
 python -m scripts.retrain \
   --bottleneck_dir=tf_files/bottlenecks \
   --model_dir=tf_files/models/"${ARCHITECTURE}" \
