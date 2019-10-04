@@ -1,6 +1,6 @@
 # GCSHack
 
-# Commands to Run the CNN
+# Commands to Run the transfer learning models
 #### To Retrain the network <br>
 IMAGE_SIZE=224 <br>
 ARCHITECTURE="mobilenet_0.50_${IMAGE_SIZE}" <br>
